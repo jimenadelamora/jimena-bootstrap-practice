@@ -10,18 +10,38 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 .jumbotron {
-  background-image: url(../img/pirate-ship.jpg) no-repeat center;
+  background: url("../img/pirate-ship.jpg") no-repeat center;
   background-size: cover;
+  text-align: center;
+  color: white;
   }
 
-.nav-item {
+.display-4, h2 {
+  font-family: 'New Tegomin', serif;
+}
+
+.navbar-nav {  
   a:hover {
     text-decoration: underline;
+    color: white;
   }
-  
-  .active {
-    font-weight: bold;
-  }
+}
+
+a:active {
+  font-weight: bold;
+}
+
+.byline {
+  font-weight: bold;
+}
+
+.source {
+  font-style: italic;
+}
+
+.footer {
+  background-color: rgb(180, 180, 180);
+  text-align: center;
 }
 
 
